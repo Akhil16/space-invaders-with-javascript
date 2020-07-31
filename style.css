@@ -1,0 +1,53 @@
+body {
+    margin:0 15% ;
+    padding: 25px;
+    background-color: #333;
+    color: aliceblue;
+}
+
+.header {
+    text-align: center;
+    padding: 25px;
+    text-decoration: underline;
+}
+
+.left {
+    text-align: left;
+}
+
+.right {
+    text-align: right;
+}
+
+.grid {
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid #eee;
+    margin: 0 auto;
+    flex-direction: row;
+}
+.grid div {
+    box-sizing: border-box;
+    height: 20px;
+    width: 20px;
+    /* border:0.001px solid #eee; */
+}
+
+.shooter {
+    background-color: #4169e1;
+}
+
+.invader {
+    background-color: purple;
+    border-radius: 50%;
+}
+
+.boom {
+    background-color: red;
+}
+
+.laser {
+    background-color: #00fa90;
+}
